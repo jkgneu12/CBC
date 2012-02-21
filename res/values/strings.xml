@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cambridge Brewing Co.</string>
+    <string name="search">Search</string>
+    <string name="cbc_beer_and_food_menus">CBC Beer and Food Menus</string>
+    <string name="see_my_favorites">See My Favorites</string>
+    <string name="high_alcohol_by_volume">High Alcohol by Volume</string>
+    <string name="low_alcohol_by_volume">Low Alcohol by Volume</string>
+
+</resources>

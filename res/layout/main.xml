@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical" 
+    android:background="@drawable/cbc_logo">
+    
+    <Button android:id="@+id/browse_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/cbc_beer_and_food_menus" />
+    
+    <Button android:id="@+id/favs_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/see_my_favorites" />
+    
+    <Button android:id="@+id/highabv_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/high_alcohol_by_volume" />
+    
+    <Button android:id="@+id/lowabv_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/low_alcohol_by_volume" />
+
+</LinearLayout>

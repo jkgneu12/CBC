@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         android:orientation="horizontal"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:paddingLeft="0dp"
+         android:paddingRight="0dp">
+
+     <fragment android:name="com.devcamp.fragment.ListItemFragment"
+         	   android:id="@+id/listfrag"
+               android:layout_width="0dip"
+               android:layout_height="match_parent"
+               android:background="#000000"
+               android:layout_weight="1.3"
+               android:drawSelectorOnTop="false"/>
+     
+     <fragment android:name="com.devcamp.fragment.DetailsFragment"
+         	   android:id="@+id/detailfrag"
+               android:layout_width="0dip"
+               android:layout_height="match_parent"
+               android:background="#000000"
+               android:layout_weight="2"
+               android:drawSelectorOnTop="false"/>
+ </LinearLayout>
