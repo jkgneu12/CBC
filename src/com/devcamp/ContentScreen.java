@@ -35,7 +35,7 @@ public class ContentScreen extends Activity implements OnMenuItemClickListener  
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         
-        tabletLayout = false;//getWindowManager().getDefaultDisplay().getWidth() > 721;
+        tabletLayout = getWindowManager().getDefaultDisplay().getWidth() > 721;
         
         setContentView();
         
